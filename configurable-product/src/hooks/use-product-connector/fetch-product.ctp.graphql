@@ -17,7 +17,7 @@ query RetrieveCustomObject($id: String!) {
               uri
             }
           }
-          attributesRaw(includeNames: ["configuration"]) {
+          attributesRaw(includeNames: ["Addons"]) {
             name
             value
             referencedResource {
