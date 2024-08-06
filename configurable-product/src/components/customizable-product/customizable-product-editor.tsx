@@ -34,8 +34,8 @@ export type Props = {
   productId: string;
   variantId: string;
 };
-const configuration = 'configuration';
-const SUPPORTED_PRODUCT_TYPE = 'configurable';
+const configuration = 'Addons';
+const SUPPORTED_PRODUCT_TYPE = 'crave-package-new';
 const CustomizableProductEditor: FC<Props> = ({ productId, variantId }) => {
   const intl = useIntl();
   const match = useRouteMatch();
