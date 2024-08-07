@@ -131,24 +131,12 @@ const RowForm: FC<Props> = ({
           title={<FormattedMessage {...messages.attributeTypeTitle} />}
           options={[
             {
-              value: 'color',
-              label: intl.formatMessage(messages.colorChooser),
-            },
-            {
-              value: 'int-range',
-              label: intl.formatMessage(messages['int-range']),
-            },
-            {
               value: 'static-bundle',
               label: intl.formatMessage(messages.staticBundle),
             },
             {
               value: 'dynamic-bundle',
               label: intl.formatMessage(messages.dynamicBundle),
-            },
-            {
-              value: 'range-bundle',
-              label: intl.formatMessage(messages.rangeBundle),
             },
           ]}
           value={formik.values.config?.type}
